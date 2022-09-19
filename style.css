@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: burlywood;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+h2 {
+  font-size: 30px;
+  color: rgb(46, 37, 23);
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+header ul {
+  list-style-type: none;
+  display: inline-flex;
+  padding-top: 5px;
+}
+header li {
+  padding-left: 20px;
+}
+header li a {
+  color: rgb(95, 64, 24);
+}
+
+main div {
+  position: relative;
+}
+
+main div img {
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+main div h1 {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  padding-left: 5px;
+}
+
+h3 {
+  padding-top: 10px;
+  padding-left: 60px;
+}
+p {
+  text-align: justify;
+  padding-top: 10px;
+  padding-left: 60px;
+  padding-right: 50px;
+}
+body {
+  background-color: bisque;
+}
+
+section ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 15px;
+}
+
+section ul li {
+  text-align: center;
+  width: 37%;
+  margin: auto;
+  list-style: none;
+  background-color: antiquewhite;
+  padding-top: 5px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 16px 32px,
+    rgba(0, 0, 0, 0.07) 0px 32px 65px;
+
+}
+footer {
+  text-align: justify;
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
